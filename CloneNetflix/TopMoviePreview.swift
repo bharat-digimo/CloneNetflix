@@ -26,12 +26,29 @@ struct TopMoviePreview: View {
                 HStack {
                     ForEach(movie.categories, id: \.self) { category in
                         Text(category)
+                            .font(.footnote)
                         if shouldShowCircleAfterCategory(category) {
                             Image(systemName: "circle.fill")
                                 .foregroundColor(.blue)
                                 .font(.system(size: 4))
                         }
                     }
+                }
+                HStack {
+                    Spacer()
+                    SmallVerticalButton(isOn: false, text: "My List", imageForSelected: "checkmark", imageForNonSelected: "plus") {
+                        //
+                    }
+                    Spacer()
+                    WhiteButton(text: "Play", imageName: "play.fill") {
+                        //
+                    }
+                    .frame(width: 120)
+                    Spacer()
+                    SmallVerticalButton(isOn: true, text: "Info", imageForSelected: "info.circle", imageForNonSelected: "info.circle") {
+                        //
+                    }
+                    Spacer()
                 }
             }
         }
