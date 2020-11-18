@@ -13,7 +13,6 @@ struct HomeView: View {
         ZStack {
             Color.black
                 .edgesIgnoringSafeArea(.all)
-            //Main Vstack
             ScrollView(.vertical, showsIndicators: false) {
                 LazyVStack {
                     ForEach(vm.allCategories, id: \.self) { category in

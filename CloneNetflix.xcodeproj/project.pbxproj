@@ -17,6 +17,7 @@
 		4F48063D2555523400BC4401 /* StandardHomeMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F48063C2555523400BC4401 /* StandardHomeMovie.swift */; };
 		4F4806402555538100BC4401 /* GlobalHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F48063F2555538100BC4401 /* GlobalHelper.swift */; };
 		4F48064325555AAD00BC4401 /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F48064225555AAD00BC4401 /* HomeVM.swift */; };
+		4FF3FE092565477100ACD4D3 /* TopMoviePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF3FE082565477100ACD4D3 /* TopMoviePreview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		4F48063C2555523400BC4401 /* StandardHomeMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardHomeMovie.swift; sourceTree = "<group>"; };
 		4F48063F2555538100BC4401 /* GlobalHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalHelper.swift; sourceTree = "<group>"; };
 		4F48064225555AAD00BC4401 /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
+		4FF3FE082565477100ACD4D3 /* TopMoviePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoviePreview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				4F48064225555AAD00BC4401 /* HomeVM.swift */,
 				4F480639255551F600BC4401 /* Movie.swift */,
 				4F48063C2555523400BC4401 /* StandardHomeMovie.swift */,
+				4FF3FE082565477100ACD4D3 /* TopMoviePreview.swift */,
 				4F48063F2555538100BC4401 /* GlobalHelper.swift */,
 				4F4806222554663E00BC4401 /* Assets.xcassets */,
 				4F4806272554663E00BC4401 /* Info.plist */,
@@ -166,6 +169,7 @@
 				4F48064325555AAD00BC4401 /* HomeVM.swift in Sources */,
 				4F4806212554663B00BC4401 /* ContentView.swift in Sources */,
 				4F48063D2555523400BC4401 /* StandardHomeMovie.swift in Sources */,
+				4FF3FE092565477100ACD4D3 /* TopMoviePreview.swift in Sources */,
 				4F48063A255551F600BC4401 /* Movie.swift in Sources */,
 				4F48061F2554663B00BC4401 /* CloneNetflixApp.swift in Sources */,
 			);
