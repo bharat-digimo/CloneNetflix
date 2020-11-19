@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F25AE3A25663F110039E0E9 /* MovieDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F25AE3925663F110039E0E9 /* MovieDetailsView.swift */; };
+		4F25AE3D256648590039E0E9 /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F25AE3C256648590039E0E9 /* Episode.swift */; };
 		4F48061F2554663B00BC4401 /* CloneNetflixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F48061E2554663B00BC4401 /* CloneNetflixApp.swift */; };
 		4F4806232554663E00BC4401 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F4806222554663E00BC4401 /* Assets.xcassets */; };
 		4F4806262554663E00BC4401 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F4806252554663E00BC4401 /* Preview Assets.xcassets */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F25AE3925663F110039E0E9 /* MovieDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsView.swift; sourceTree = "<group>"; };
+		4F25AE3C256648590039E0E9 /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
 		4F48061B2554663B00BC4401 /* CloneNetflix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloneNetflix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F48061E2554663B00BC4401 /* CloneNetflixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloneNetflixApp.swift; sourceTree = "<group>"; };
 		4F4806222554663E00BC4401 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -62,6 +66,7 @@
 			children = (
 				4F25AE2D25663D260039E0E9 /* HomeView */,
 				4F25AE3325663D790039E0E9 /* HelperViews */,
+				4F25AE3925663F110039E0E9 /* MovieDetailsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -89,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				4F480639255551F600BC4401 /* Movie.swift */,
+				4F25AE3C256648590039E0E9 /* Episode.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -219,6 +225,8 @@
 				4F48062F255466A000BC4401 /* HomeView.swift in Sources */,
 				4F48064325555AAD00BC4401 /* HomeVM.swift in Sources */,
 				4F48063D2555523400BC4401 /* StandardHomeMovie.swift in Sources */,
+				4F25AE3A25663F110039E0E9 /* MovieDetailsView.swift in Sources */,
+				4F25AE3D256648590039E0E9 /* Episode.swift in Sources */,
 				4FF3FE092565477100ACD4D3 /* TopMoviePreview.swift in Sources */,
 				4F48063A255551F600BC4401 /* Movie.swift in Sources */,
 				4F48061F2554663B00BC4401 /* CloneNetflixApp.swift in Sources */,
