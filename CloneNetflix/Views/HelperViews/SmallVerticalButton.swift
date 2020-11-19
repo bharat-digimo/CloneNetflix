@@ -26,10 +26,10 @@ struct SmallVerticalButton: View {
                 Image(systemName: imageName)
                     .foregroundColor(.white)
                 Text(text)
+                    .foregroundColor(.white)
                     .font(.system(size: 14))
                     .bold()
-                    .foregroundColor(.white)
-                    .padding(.top, 2)
+                    .padding(.top, 1)
             }
         })
     }
