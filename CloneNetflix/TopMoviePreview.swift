@@ -36,7 +36,7 @@ struct TopMoviePreview: View {
                 }
                 HStack {
                     Spacer()
-                    SmallVerticalButton(isOn: false, text: "My List", imageForSelected: "checkmark", imageForNonSelected: "plus") {
+                    SmallVerticalButton(isOn: true, text: "My List", imageForSelected: "checkmark", imageForNonSelected: "plus") {
                         //
                     }
                     Spacer()
@@ -51,6 +51,8 @@ struct TopMoviePreview: View {
                     Spacer()
                 }
             }
+            .background(LinearGradient.blackTopToBottom)
+            .padding(.top, 300)
         }
         .foregroundColor(.white)
     }

@@ -29,6 +29,7 @@ struct SmallVerticalButton: View {
                     .font(.system(size: 14))
                     .bold()
                     .foregroundColor(.white)
+                    .padding(.top, 2)
             }
         })
     }
@@ -36,38 +37,11 @@ struct SmallVerticalButton: View {
 
 struct SmallVerticalButton_Previews: PreviewProvider {
     static var previews: some View {
-        Group {
-            Group {
-                ZStack {
-                    Color.black
-                        .edgesIgnoringSafeArea(.all)
-                    SmallVerticalButton(isOn: true, text: "My List", imageForSelected: "checkmark", imageForNonSelected: "plus") {
-                        print("action")
-                    }
-                }
-                ZStack {
-                    Color.black
-                        .edgesIgnoringSafeArea(.all)
-                    SmallVerticalButton(isOn: true, text: "My List", imageForSelected: "checkmark", imageForNonSelected: "plus") {
-                        print("action")
-                    }
-                }
-            }
-            Group {
-                ZStack {
-                    Color.black
-                        .edgesIgnoringSafeArea(.all)
-                    SmallVerticalButton(isOn: true, text: "My List", imageForSelected: "checkmark", imageForNonSelected: "plus") {
-                        print("action")
-                    }
-                }
-                ZStack {
-                    Color.black
-                        .edgesIgnoringSafeArea(.all)
-                    SmallVerticalButton(isOn: true, text: "My List", imageForSelected: "checkmark", imageForNonSelected: "plus") {
-                        print("action")
-                    }
-                }
+        ZStack {
+            Color.black
+                .edgesIgnoringSafeArea(.all)
+            SmallVerticalButton(isOn: true, text: "My List", imageForSelected: "checkmark", imageForNonSelected: "plus") {
+                print("action")
             }
         }
     }
