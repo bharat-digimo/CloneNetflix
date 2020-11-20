@@ -10,8 +10,12 @@ import SwiftUI
 struct MovieDetailsView: View {
     var movie: Movie
     let screen = UIScreen.main.bounds
+    
     @State private var showSeasonPicker = false
     @State private var selectedSeason = 1
+    
+    @Binding var movieDetailToShow: Movie?
+    
     var body: some View {
         ZStack {
             Color.black
@@ -21,7 +25,9 @@ struct MovieDetailsView: View {
                 VStack {
                     HStack {
                         Spacer()
-                        Button(action: {}, label: {
+                        Button(action: {
+                            self.movieDetailToShow = nil
+                        }, label: {
                             Image(systemName: "xmark.circle")
                                 .font(.system(size: 28))
                         })
@@ -107,7 +113,7 @@ struct MovieDetailsView: View {
 
 struct MovieDetailsView_Previews: PreviewProvider {
     static var previews: some View {
-        MovieDetailsView(movie: exampleMovie1)
+        MovieDetailsView(movie: exampleMovie1, movieDetailToShow: .constant(nil))
     }
 }
 
@@ -148,7 +154,7 @@ struct HDView: View {
         ZStack {
             RoundedRectangle(cornerRadius: 4)
                 .stroke(Color.gray, lineWidth: 2)
-                .frame(width: 40)
+                .frame(width: 40, height: 20)
             
             Text("HD")
                 .foregroundColor(.white)
