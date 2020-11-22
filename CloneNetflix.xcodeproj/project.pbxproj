@@ -25,6 +25,7 @@
 		4F48063D2555523400BC4401 /* StandardHomeMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F48063C2555523400BC4401 /* StandardHomeMovie.swift */; };
 		4F4806402555538100BC4401 /* GlobalHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F48063F2555538100BC4401 /* GlobalHelper.swift */; };
 		4F48064325555AAD00BC4401 /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F48064225555AAD00BC4401 /* HomeVM.swift */; };
+		4FB91DB4256A2C1D001391CC /* HomeStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB91DB3256A2C1D001391CC /* HomeStack.swift */; };
 		4FF3FE092565477100ACD4D3 /* TopMoviePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF3FE082565477100ACD4D3 /* TopMoviePreview.swift */; };
 		4FF3FE0C2565806B00ACD4D3 /* SmallVerticalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF3FE0B2565806B00ACD4D3 /* SmallVerticalButton.swift */; };
 		4FF3FE0F2565877300ACD4D3 /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF3FE0E2565877300ACD4D3 /* PlayButton.swift */; };
@@ -50,6 +51,7 @@
 		4F48063C2555523400BC4401 /* StandardHomeMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardHomeMovie.swift; sourceTree = "<group>"; };
 		4F48063F2555538100BC4401 /* GlobalHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalHelper.swift; sourceTree = "<group>"; };
 		4F48064225555AAD00BC4401 /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
+		4FB91DB3256A2C1D001391CC /* HomeStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStack.swift; sourceTree = "<group>"; };
 		4FF3FE082565477100ACD4D3 /* TopMoviePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoviePreview.swift; sourceTree = "<group>"; };
 		4FF3FE0B2565806B00ACD4D3 /* SmallVerticalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallVerticalButton.swift; sourceTree = "<group>"; };
 		4FF3FE0E2565877300ACD4D3 /* PlayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayButton.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				4F48062E255466A000BC4401 /* HomeView.swift */,
+				4FB91DB3256A2C1D001391CC /* HomeStack.swift */,
 			);
 			path = HomeView;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				4F075488256795A7005A2B6D /* CustomTabSwitcher.swift in Sources */,
 				4F48061F2554663B00BC4401 /* CloneNetflixApp.swift in Sources */,
 				4FF3FE0C2565806B00ACD4D3 /* SmallVerticalButton.swift in Sources */,
+				4FB91DB4256A2C1D001391CC /* HomeStack.swift in Sources */,
 				4F0754962567AEAF005A2B6D /* VideoPreviewImage.swift in Sources */,
 				4FF3FE0F2565877300ACD4D3 /* PlayButton.swift in Sources */,
 			);

@@ -50,6 +50,7 @@ struct TopMoviePreview: View {
                     }
                     Spacer()
                 }
+                .padding(.vertical, 14)
             }
             .background(LinearGradient.blackTopToBottom)
             .padding(.top, 300)
