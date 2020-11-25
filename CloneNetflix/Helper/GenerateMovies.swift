@@ -48,7 +48,7 @@ func generateMovies(_ count: Int) -> [Movie] {
         
         let moreLikeThis = exampleMovies
         
-        let movie = Movie(id: id, name: name, thumbnailURL: thumbnail, categories: categories, genre: .AllGenres, year: year, rating: "PG-13", numberOfSeasons: numSeasons, currentEpisode: defEpiInfo, defaultEpisodeInfo: defEpiInfo, creators: creators, cast: cast, moreLikeThisMovies: moreLikeThis, episodes: allEpisodes, promotionHeadline: headline, trailers: allTrailers)
+        let movie = Movie(id: id, name: name, thumbnailURL: thumbnail, categories: categories, genre: .AllGenres, year: year, rating: "PG-13", numberOfSeasons: numSeasons, currentEpisode: defEpiInfo, defaultEpisodeInfo: defEpiInfo, creators: creators, cast: cast, moreLikeThisMovies: moreLikeThis, episodes: allEpisodes, promotionHeadline: headline, trailers: allTrailers, previewImageName: "")
         allMovies.append(movie)
     }
     
@@ -98,6 +98,6 @@ func generateEpisodes(_ count: Int, forSeason season: Int) -> [Episode] {
 }
 
 func randomString(length: Int) -> String {
-  let letters = "abcdefghijklmnopqrstuvwxyz"
-  return String((0..<length).map{ _ in letters.randomElement()! })
+    let letters = "abcdefghijklmnopqrstuvwxyz"
+    return String((0..<length).map{ _ in letters.randomElement()! })
 }

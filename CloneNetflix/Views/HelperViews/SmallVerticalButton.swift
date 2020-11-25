@@ -12,6 +12,7 @@ struct SmallVerticalButton: View {
     var text: String
     var imageForSelected: String
     var imageForNonSelected: String
+    var color: Color = Color.white
     
     private var imageName: String {
          isOn ? imageForSelected : imageForNonSelected
@@ -24,9 +25,9 @@ struct SmallVerticalButton: View {
         }, label: {
             VStack(spacing: 6) {
                 Image(systemName: imageName)
-                    .foregroundColor(.white)
+                    .foregroundColor(color)
                 Text(text)
-                    .foregroundColor(.white)
+                    .foregroundColor(color)
                     .font(.system(size: 14))
                     .bold()
             }

@@ -17,7 +17,7 @@ struct StandardHomeMovie: View {
                 .resizable()
                 .aspectRatio(contentMode: .fill)
                 .frame(width: proxy.size.width, height: proxy.size.height)
-//                .clipped()
+                .clipped()
         }
     }
 }
